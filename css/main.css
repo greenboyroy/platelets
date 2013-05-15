@@ -1,0 +1,64 @@
+/* HTML5 Boilerplate for base styles and helper classes. */
+
+/* Base styles: opinionated defaults */
+html,button,input,select,textarea{color:#222;font-size:100%}
+body{font-size:1em;line-height:1.4}
+/* Remove text-shadow in selection highlight, IF YOU USE TEXT-SHADOW! */
+::-moz-selection{background:#b3d4fc;text-shadow:none}
+::selection{background:#b3d4fc;text-shadow:none}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0} /* A better looking default horizontal rule, again IF USED. */
+img{vertical-align:middle} /* Remove the gap between images and the bottom of their containers. */
+fieldset{border:0;margin:0;padding:0} /* Remove default fieldset styles, IF USED. */
+textarea{resize:vertical} /* Allow only vertical resizing of textareas, IF USED. */
+abbr{ font-variant:small-caps;text-transform:lowercase;font-weight:600;letter-spacing:0.1em;cursor:help} /* Small caps help make abbreviations easier to read as they don’t stand out from the text as much. */
+.chromeframe{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0} /* Chrome Frame prompt */
+
+/* Helper classes: */
+/* Image replacement */
+.ir{background-color:transparent;border:0;overflow:hidden}
+.ir:before{content:"";display:block;width:0;height: 100%}
+.hidden{display:none !important;visibility:hidden} /* Hide from both screenreaders and browsers. */
+/* Hide only visually, but have it available for screenreaders. */
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.invisible{visibility: hidden} /* Hide visually and from screenreaders, but maintain layout */
+/* Clearfix: contain floats */
+.group:before,.group:after{content:" ";display:table}
+.group:after{clear: both}
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Begin actual styles! */
+
+
+
+/* Print styles. */
+@media print {
+    * {background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}
+    a,a:visited{text-decoration: underline}
+    a[href]:after{content:" (" attr(href) ")"}
+    abbr[title]:after{content: " (" attr(title) ")"}
+    /* Don't show links for images, or javascript/internal links */
+    .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after { content: ""}
+    pre,blockquote{border:1px solid #999;page-break-inside:avoid}
+    thead{display:table-header-group}
+    tr,img{page-break-inside:avoid}
+    img{max-width:100% !important}
+    @page{margin:0.5cm}
+    p,h2,h3{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+
+/* IE Badness */
+.chromeframe {
+	padding: 10px 0;
+	color: #000;
+	text-align: center;
+	margin: 0;
+	background-color: #FFEFEF;
+	border-bottom: 1px solid #E51915;
+}
+.chromeframe a { color: #E51915; }
+
+/* .lt-ie9 * { opacity: inherit !important; filter: inherit !important; } /* Potentially hazardous. */
