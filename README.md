@@ -1,6 +1,8 @@
-# Boilerplate (Basic)
+# Platelets (Master)
 
-A simple boilerplate boiled up from different boilerplates, that probably used ideas from other boilerplates and resulted in a boilerplate. Boilerplate.
+A simple boilerplate boiled up from different boilerplates, that probably used stuff from other boilerplates and resulted in a boilerplate. Boilerplate.
+
+The master branch contains the basic template, other branches will be added as required.
 
 ## References
 
@@ -17,4 +19,8 @@ A simple boilerplate boiled up from different boilerplates, that probably used i
 ## Extra stuff
 
 * .htaccess is pulled directly from h5bp with one addition to get rid of php file extentions (probably could be better/used for other things).
-* Alternative versions are in the works. I want to incorporate [Pure](http://purecss.io) and start a [SASS](http://sass-lang.com/) workflow based on recommendations from Harry Roberts [@csswizardry](https://twitter.com/csswizardry).
+* Alternative versions (branches) are in the works. I want to incorporate [Pure](http://purecss.io) and start a [SASS](http://sass-lang.com/) workflow based on recommendations from Harry Roberts [@csswizardry](https://twitter.com/csswizardry).
+
+## Disclaimer
+
+** I'm not claiming this is how things should be. This is just how I work, I'm always eager to learn and improve, so if you feel I'm wrong join the discussion. **
