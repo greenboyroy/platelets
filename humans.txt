@@ -3,21 +3,18 @@
 
 /* TEAM */
 
-Engine Room Design
-Site: www.engineroomdesign.com
-Location: Huddersfield, United Kingdom
-
-Web Developer: Mark Greenwood
-Email: markg@engineroomdesign.com
+Developer: Mark Greenwood
 Twitter: @greenboyroy
 
 /* THANKS */
 
 All involved with maintaining HTML5 Boilerplate - https://github.com/h5bp/html5-boilerplate
+Normalize.css folks - https://github.com/necolas/normalize.css
+Paul Irish, Dan Cedarholm, Jon Hicks, Remy Sharp and many others - Without whom, I would know nothing.
 XXXXXXXXX for letting us build this site!
 
 /* SITE */
 
 Standards: HTML5, CSS3
-Components: jQuery, Perch, Google Font API
-Software: Coda 2, Photoshop
+Components: jQuery, Modernizr, Normalize
+Software: Coda 2
