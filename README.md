@@ -19,8 +19,8 @@ The master branch contains the basic template, other branches will be added as r
 ## Extra stuff
 
 * .htaccess is pulled directly from h5bp with one addition to get rid of php file extentions (probably could be better/used for other things).
-* Alternative versions (branches) are in the works. I want to incorporate [Pure](http://purecss.io) and start a [SASS](http://sass-lang.com/) workflow based on recommendations from Harry Roberts [@csswizardry](https://twitter.com/csswizardry).
+* Alternative versions (branches) are in the works. I want to incorporate [Pure](http://purecss.io) and start a [SASS](http://sass-lang.com/) workflow based on recommendations from [@csswizardry](https://twitter.com/csswizardry) on [this talk](https://speakerdeck.com/csswizardry/architecting-scalable-css?slide=17).
 
 ## Disclaimer
 
-** I'm not claiming this is how things should be. This is just how I work, I'm always eager to learn and improve, so if you feel I'm wrong join the discussion. **
+**I'm not claiming this is how things should be. This is just how I work, I'm always eager to learn and improve, so if you feel I'm wrong join the discussion.**
