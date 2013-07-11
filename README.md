@@ -1,13 +1,14 @@
-# Platelets (Master)
+# Platelets (Pure)
 
 A simple boilerplate boiled up from different boilerplates, that probably used stuff from other boilerplates and resulted in a boilerplate. Boilerplate.
 
-The master branch contains the basic template, other branches will be added as required.
+The pure branch contains the basic template, but with Pure CSS as well as Normalize (v2) for a bit more oompf.
 
 ## References
 
 * [HTML5 Boilerplate](http://html5boilerplate.com/) ([GitHub](https://github.com/h5bp/html5-boilerplate))
 * [normalize.css v2.1.2](http://necolas.github.io/normalize.css/) ([GitHub](https://github.com/necolas/normalize.css/))
+* [Pure v0.2.0](http://purecss.io/)
 * [Interactive Guide to Blog Typography](http://www.kaikkonendesign.fi/typography)
 * [* { Box-sizing: Border-box } FTW](http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
 
@@ -19,7 +20,6 @@ The master branch contains the basic template, other branches will be added as r
 ## Extra stuff
 
 * .htaccess is pulled directly from h5bp with one addition to get rid of php file extentions (probably could be better/used for other things).
-* Alternative versions (branches) are in the works. I want to incorporate [Pure](http://purecss.io) and start a [SASS](http://sass-lang.com/) workflow based on recommendations from [@csswizardry](https://twitter.com/csswizardry) on [this talk](https://speakerdeck.com/csswizardry/architecting-scalable-css?slide=17).
 
 ## Disclaimer
 
