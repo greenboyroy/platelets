@@ -16,6 +16,7 @@ The pure branch contains the basic template, but with Pure CSS as well as Normal
 
 * No support below IE 8 (apart from a browse happy link).
 * jQuery will be used (and used well) in the site. If you can go without, [please do](http://remysharp.com/2013/04/19/i-know-jquery-now-what/).
+* The site is being run on some kind of server and index.html is at root. If you want to run server-free, you'll need to drop some slashes from index.html.
 
 ## Extra stuff
 
