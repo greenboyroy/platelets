@@ -15,11 +15,12 @@ The master branch contains the basic template, other branches will be added as r
 
 * No support below IE 8 (apart from a browse happy link).
 * jQuery will be used (and used well) in the site. If you can go without, [please do](http://remysharp.com/2013/04/19/i-know-jquery-now-what/).
+* The site is being run on some kind of server and index.html is at root. If you want to run server-free, you'll need to drop some slashes from index.html.
 
 ## Extra stuff
 
 * .htaccess is pulled directly from h5bp with one addition to get rid of php file extentions (probably could be better/used for other things).
-* Alternative versions (branches) are in the works. I want to incorporate [Pure](http://purecss.io) and start a [SASS](http://sass-lang.com/) workflow based on recommendations from [@csswizardry](https://twitter.com/csswizardry) on [this talk](https://speakerdeck.com/csswizardry/architecting-scalable-css?slide=17).
+* Alternative versions (branches) are in the works. I want to incorporate [Pure](http://purecss.io) and start a [SASS](http://sass-lang.com/) workflow based on recommendations from [@csswizardry](https://twitter.com/csswizardry) in [this talk](https://speakerdeck.com/csswizardry/architecting-scalable-css?slide=17).
 
 ## Disclaimer
 
