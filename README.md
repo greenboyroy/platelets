@@ -8,9 +8,8 @@ The pure branch contains the basic template, but with Pure CSS as well as Normal
 
 * [HTML5 Boilerplate](http://html5boilerplate.com/) ([GitHub](https://github.com/h5bp/html5-boilerplate))
 * [normalize.css v2.1.2](http://necolas.github.io/normalize.css/) ([GitHub](https://github.com/necolas/normalize.css/))
-* [Pure v0.2.0](http://purecss.io/)
+* [Pure v0.3.0](http://purecss.io/)
 * [Interactive Guide to Blog Typography](http://www.kaikkonendesign.fi/typography)
-* [* { Box-sizing: Border-box } FTW](http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
 
 ## Assumptions
 
